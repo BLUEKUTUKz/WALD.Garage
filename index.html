@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AutoVerse - Jual Mobil Futuristik</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <img src="logo.png" alt="AutoVerse Logo" class="logo" />
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="#popular">Mobil</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+    <button class="btn" onclick="alert('Fitur login belum tersedia')">Masuk</button>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <h1>WALD GARAGE</h1>
+    <p>Mobil koleksi terbaik di indonesia</p>
+    <img src="banner.jpg" alt="Mobil Futuristik" class="hero-img" />
+  </section>
+
+  <!-- Produk Populer -->
+  <section class="popular" id="popular">
+    <h2>PRODUK KAMI</h2>
+    <div class="grid">
+      <div class="car-card">
+        <img src="porsche.jpg" alt="Tesla Model S">
+        <h3>Porche 911</h3>
+        <p><del>Rp 44.000</del> <strong>Rp 36.000</strong></p>
+      <button class="btn-beli" data-produk="Porsche 911" data-pesan="halo gan apakah stok ini masih ada
+      produk : porsche 911
+      pembeli harap isi forum di bawah
+      alamat :
+      nama penerima :
+      ">Beli Sekarang</button>
+      </div>
+      <div class="car-card">
+        <img src="buggati.jpg" alt="buggati Chiron">
+        <h3>buggati Chiron</h3>
+        <p><strong>Rp 55.000</strong></p>
+        <button class="btn" onclick="beli('Honda EV Concept')">Beli Sekarang</button>
+      </div>
+      <div class="car-card">
+        <img src="pagani.jpg" alt="Pagani Zonda R">
+        <h3>Pagani Zonda R</h3>
+        <p><del>Rp 39.000 </del> <strong>Rp 35.000</strong></p>
+        <button class="btn" onclick="beli('Toyota Cruiser EV')">Beli Sekarang</button>
+      </div>
+       <div class="car-card">
+        <img src="fto.jpg" alt="car 4">
+        <h3>car 4</h3>
+        <p><del>Rp 39.000 </del> <strong>Rp 35.000</strong></p>
+        <button class="btn" onclick="beli('Toyota Cruiser EV')">Beli Sekarang</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak -->
+  <section class="popular" id="contact">
+    <h2>Kontak Kami</h2>
+    <p>WhatsApp: 0812-3456-7890</p>
+    <p>Email: support@autoverse.com</p>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>
