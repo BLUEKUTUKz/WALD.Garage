@@ -97,7 +97,7 @@ body {
 }
 .video-banner video {
   margin-top: 2rem;
-  max-width: 95%;
+  max-width: 90%;
   border-radius: 15px;
   box-shadow: 0 0 50px #3c0067;
 }
