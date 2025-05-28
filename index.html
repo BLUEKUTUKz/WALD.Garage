@@ -7,66 +7,124 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="galaxy-bg"></div>
+  <main>
 
-  <!-- Header -->
-  <header class="header">
-    <img src="logo.png" alt="AutoVerse Logo" class="logo" />
-    <nav class="nav">
-      <a href="#home">Home</a>
-      <a href="#popular">Mobil</a>
-      <a href="#contact">Kontak</a>
-    </nav>
-    <button class="btn" onclick="alert('Fitur login belum tersedia')">Masuk</button>
-  </header>
+<div class="video-background">
+    <video autoplay muted loop playsinline>
+      <source src="video/bg.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+</div>
 
-  <!-- Hero -->
-  <section class="hero" id="home">
+<!-- Header -->
+<header class="header">
+  <img src="img/logo.png" alt="Logo" class="logo" />
+
+  <!-- Menu nav -->
+  <nav class="nav" id="navMenu">
+    <a href="#home">Home</a></li>
+    <a href="#popular">Hotwheels</a></li>
+    <a href="#Macthbox">Macthbox</a></li>
+    <a href="#MiniGT">Mini GT</a></li>
+  </nav>
+
+  <button class="btn"><a href="komunitas.html">Comunity</a></button>
+</header>
+
+
+
+  <!-- home -->
+  <section class="video">
     <h1>WALD GARAGE</h1>
     <p>Mobil koleksi terbaik di indonesia</p>
-    <img src="banner.jpg" alt="Mobil Futuristik" class="hero-img" />
+ <div class="video-banner">
+    <video autoplay muted loop playsinline>
+      <source src="video/Garage.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+</div>
   </section>
+  <!-- homw selesai -->
 
-  <!-- Produk Populer -->
+  <!-- hotwheels -->
   <section class="popular" id="popular">
-    <h2>PRODUK KAMI</h2>
+    <section class="subjudul" id="home">
+    <h1>PRODUK KAMI</h>
+    <h2>Hotwheels</h2>
     <div class="grid">
       <div class="car-card">
-        <img src="porsche.jpg" alt="Tesla Model S">
+        <img src="img/porsche.jpg" alt="Tesla Model S">
         <h3>Porche 911</h3>
         <p><del>Rp 44.000</del> <strong>Rp 36.000</strong></p>
       <button class="btn-beli" data-produk="Porsche 911" data-pesan="halo gan apakan stock mobil *porsche 911* masih ada"
       >Beli Sekarang</button>
       </div>
       <div class="car-card">
-        <img src="buggati.jpg" alt="buggati Chiron">
+        <img src="img/buggati.jpg" alt="buggati Chiron">
         <h3>buggati Chiron</h3>
         <p><strong>Rp 55.000</strong></p>
         <button class="btn-beli" data-produk="Buggati Chiron" data-pesan="halo gan apakan stock mobil *Buggati Chiron* masih ada"
       >Beli Sekarang</button>
       </div>
-      <div class="car-card">
-        <img src="pagani.jpg" alt="Pagani Zonda R">
+       <div class="car-card">
+        <img src="img/pagani.jpg" alt="Pagani Zonda R">
         <h3>Pagani Zonda R</h3>
         <p><del>Rp 39.000 </del> <strong>Rp 35.000</strong></p>
         <button class="btn-beli" data-produk="Pagani Zonda R" data-pesan="halo gan apakan stock mobil *Pagani Zonda R* masih ada"
       >Beli Sekarang</button>
       </div>
-       <div class="car-card">
-        <img src="comming soon.jpg" alt="car 4">
-        <h3>car 4</h3>
+    </div>
+    
+  </section>
+  <!-- hotwheels selesai -->
+
+  <!-- macth -->
+    <section class="Macthbox" id="Macthbox">
+      <section class="subjudul" id="home">
+    <h2>Macthbox</h2>
+    <div class="grid">
+        <div class="car-card">
+        <img src="img/mustank.jpg" alt="Mini GT">
+        <h3>Mustang</h3>
+        <p><del>Rp 39.000 </del> <strong>Rp 35.000</strong></p>
+        <button class="btn-beli" data-produk="mustang" data-pesan="halo gan apakan stock mobil *mustang* masih ada"
+      >Beli Sekarang</button>
+      </div>
+        <div class="car-card">
+        <img src="img/comming soon.jpg" alt="car 4">
+        <h3>car 5</h3>
+        <p><strong>???</strong></p>
+        <button class="btn" onclick="beli('mobil keren')">comming soon</button>
+      </div>
+    </div>
+    
+  </section>
+  <!-- macth selesai -->
+
+  <!-- mini gt -->
+<section class="MiniGT" id="MiniGT">
+  <section class="subjudul" id="home">
+    <h2>Mini GT</h2>
+    <div class="grid">
+        <div class="car-card">
+        <img src="img/comming soon.jpg" alt="car 4">
+        <h3>car 5</h3>
         <p><strong>???</strong></p>
         <button class="btn" onclick="beli('Toyota Cruiser EV')">comming soon</button>
       </div>
     </div>
-  </section>
+  <!-- mini gt selesai -->
 
   <!-- Kontak -->
   <section class="popular" id="contact">
     <h2>Kontak Kami</h2>
     <p>WhatsApp: 0895422207929</p>
     <p>Email: andiblukutuk@gmail.com</p>
+    <p>Istagram: </p>
   </section>
-
+  
   <script src="main.js"></script>
+</main>
 </body>
 </html>

@@ -1,5 +1,5 @@
 function beli(namaMobil) {
-  alert("Terima kasih! Kamu telah memilih untuk membeli " + namaMobil + ". Tim kami akan segera menghubungi kamu.");
+  alert("maaf mobil" + namaMobil + ".belum tersedia.");
 }
 
 // Smooth scroll
@@ -25,7 +25,9 @@ document.querySelectorAll('.btn-beli').forEach(button => {
     const url = "https://wa.me/" + nomor + "?text=" + pesan;
     window.open(url, '_blank');
   });
-});
+}); 
+
+
 
 
 
